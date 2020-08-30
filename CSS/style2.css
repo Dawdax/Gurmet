@@ -1,0 +1,45 @@
+/*Recursos*/
+.fz-1 {
+    font-size: 180%;
+}
+
+.fz-2 {
+    font-size: 160%;
+}
+
+.fz-3 {
+    font-size: 120%;
+}
+.fz-6{
+    font-size: 80%;
+}
+.navegation {
+    padding-top: 1%;
+}
+header{
+    background-color: rgb(0, 0, 0,80%);
+    padding: 1%;
+}
+/*Fotos*/
+
+section{
+    background-color: rgb(0, 0, 0,80%);
+}
+section img{
+    max-height: 80%;
+    max-width: 80%;
+    margin:1% 20% 1% 22%;
+}
+/*Footer*/
+footer{
+    background-color: black;
+    color: white;
+}
+/*Experiencia*/
+.img-logo-experiencia {
+    max-width: 30%;
+    padding: 2% 5% 2% 2%;
+}
+.txt-experiencia{
+    padding: 3% 5%;
+}

@@ -1,0 +1,150 @@
+/*Recursos*/
+.fz-1 {
+    font-size: 180%;
+}
+
+.fz-2 {
+    font-size: 160%;
+}
+
+.fz-3 {
+    font-size: 120%;
+}
+.fz-6{
+    font-size: 80%;
+}
+
+/*Estilos de login*/
+.center-block {
+    margin:1% 0% 0% 1%;
+}
+.btnM{
+    margin: 5%;
+}
+body{
+    color:white;
+    background-color: rgb(0, 0, 0,80%);
+}
+/*Estilos Inicio*/
+header {
+    background-image: url(../Img/BackgroundHeader.jpg);
+    height: 60vh;
+    background-size: cover;
+}
+
+.navegation {
+    padding-top: 1%;
+
+}
+
+.row {
+    padding-top: 2%;
+}
+
+.navegation img {
+    max-width: 20%;
+    padding-left: 2%;
+    margin-right: 5%;
+}
+
+.Section1 {
+    background-color: rgb(0, 0, 0, 90%);
+    max-width: 100%;
+    color: white;
+    padding: 2%;
+}
+
+.img-menu {
+    max-width: 85%;
+    margin: 2%;
+
+}
+
+.btnM {
+    margin: 0% 10% 5% 10%;
+}
+
+.row {
+    margin: 0% 10% 0% 10%;
+}
+/*Seccion2*/
+.Section2{
+    background-color: rgb(0, 0, 0,80%);
+    max-width: 100%;
+    color: white;
+    padding: 2%;
+    
+}
+
+/*Estilos tablets*/
+@media (min-width: 768px) {
+    .center-block {
+        margin:10% 0% 0% 35%;
+    }
+
+    .img-menu {
+        max-width: 0%;
+    }
+
+    .btnM {
+        margin: 2%;
+        padding: 0% 0% 7%;
+
+    }
+
+    .row {
+        padding: 0% 0% 0% 10%;
+    }
+}
+
+/*Estilos ordenadores Pequeños*/
+@media (min-width: 992px) {
+    .img-menu {
+        max-width: 20%;
+        margin: 0%;
+    }
+
+    .btnM {
+        margin: 2%;
+        padding: 0% 0% 7%;
+
+    }
+
+    .row {
+        padding: 0% 0% 0% 10%;
+    }
+}
+
+/*Ordenadores grandes*/
+@media (min-width: 1200px) {
+    .fz-1 {
+        font-size: 270%;
+    }
+
+    .fz-2 {
+        font-size: 260%;
+    }
+
+    .fz-3 {
+        font-size: 180%;
+    }
+
+    header {
+        background-image: url(../Img/BackgroundHeader.jpg);
+        height: 90vh;
+        background-size: cover;
+    }
+
+    .navegation img {
+        max-width: 15%;
+        padding-left: 2%;
+        margin-right: 5%;
+    }
+
+}
+/*Footer*/
+footer{
+    background-color: black;
+    color: white;
+}
+
